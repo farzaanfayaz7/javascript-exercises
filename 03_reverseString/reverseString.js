@@ -1,9 +1,6 @@
-const reverseString = function(str = "") {
-    if (str === "") {
-      return "";
-    }
-    return reverseString(str.slice(1)) + str[0];
+const reverseString = function (string) {
+    return string.split("").reverse().join("");
   };
   
-  // Do not edit below this line
   module.exports = reverseString;
+  
